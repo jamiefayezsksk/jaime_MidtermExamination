@@ -4,7 +4,7 @@
 <title>Products</title>
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="flex justify-center items-center h-screen">
+<body class="flex justify-left items-center h-screen">
 <div class="max-w-4xl mx-auto">
 <h1 class="text-center mb-4"><strong>Movies</strong></h1>
 <table class="table-auto border border-gray-500 rounded-lg my-4">
@@ -25,8 +25,6 @@
 @endforeach
 </tbody>
 </table>
-<div class="flex justify-center">
-</div>
 </div>
 </body>
 </html>
